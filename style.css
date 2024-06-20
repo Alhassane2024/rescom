@@ -746,6 +746,71 @@ nav{
 
 
 
+
+
+
+
+
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body { font-family: sans-serif; }
+  
+  .gallery {
+    background: #EEE;
+  }
+  
+  .gallery-cell {
+    width: 66%;
+    height: 600px;
+    margin-right: 10px;
+    background: #FF5200;
+    counter-increment: gallery-cell;
+  }
+
+  #one{
+    background: url(./assets/new-buildings-with-green-areas.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #two{
+    background: url(./assets/world-war-ii-memorial-bridge-pai-mae-hong-son-province-nothern-thailand\ \(1\).jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #three{
+    background: url(./assets/industrial-park-factory-building-warehouse.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #four{
+    background: url(./assets/analog-landscape-city-with-buildings.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+  #five{
+    background: url(./assets/trucks-highway-mountain-sunset.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 1100px) {
    .container_a_propos{
     flex-direction: column;
@@ -827,7 +892,10 @@ nav{
         flex: 1 1 calc(50% - 20px);
         }
 
-       
+        .gallery-cell{
+            min-width: 100% !important;
+            min-height: 200px !important;
+        }
 
     
 
@@ -919,54 +987,7 @@ nav{
 
 /* external css: flickity.css */
 
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  
-  body { font-family: sans-serif; }
-  
-  .gallery {
-    background: #EEE;
-  }
-  
-  .gallery-cell {
-    width: 66%;
-    height: 600px;
-    margin-right: 10px;
-    background: #FF5200;
-    counter-increment: gallery-cell;
-  }
 
-  #one{
-    background: url(./assets/analog-landscape-city-with-buildings.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-
-  #two{
-    background: url(./assets/world-war-ii-memorial-bridge-pai-mae-hong-son-province-nothern-thailand\ \(1\).jpg);
-    background-position: center;
-    background-size: cover;
-  }
-
-  #three{
-    background: url(./assets/industrial-park-factory-building-warehouse.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-
-  #four{
-    background: url(./assets/new-buildings-with-green-areas.jpg);
-    background-position: center;
-    background-size: cover;
-  }
-
-  #five{
-    background: url(./assets/trucks-highway-mountain-sunset.jpg);
-    background-position: center;
-    background-size: cover;
-  }
   
   /* cell number */
   /* .gallery-cell:before {
