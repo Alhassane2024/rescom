@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/flickity@2/dist/flickity.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>OBE Construction</title>
+  </head>
+  <body>
+    <section class="section_navigation">
+      <div class="navigation">
+        <div class="video_banniere_container">
+          <video autoplay loop muted>
+            <source src="./assets/bannierevideo.mp4" />
+          </video>
+        </div>
+
+        <nav>
+          <div class="navigation_container">
+            <div class="logo_container">
+              <span id="span_logo">OBE </span>
+              <h2 class="construction">Construction</h2>
+            </div>
+            <ul class="naviagtion_list_container">
+              <li><a href="#">services</a></li>
+              <li><a href="#">projets</a></li>
+              <li><a href="#">à propos</a></li>
+              <li><a href="#">contact</a></li>
+              <li>
+                <a class="obtenir_un_devis" href="#"
+                  >obtenir un devis
+                  <ion-icon
+                    name="arrow-forward-outline"
+                    class="arrow1_btn"
+                    style="font-size: calc(0.2vw + 12px)"
+                  ></ion-icon>
+                </a>
+              </li>
+            </ul>
+            <ion-icon name="menu-outline" id="menu_btn"></ion-icon>
+          </div>
+        </nav>
+        <div class="text_banner_content">
+          <h1 class="text_construire">
+            Construire des visions, Façonner l'avenir
+          </h1>
+          <h2 class="text_leaders">Leaders du BTP depuis 1968</h2>
+          <a class="obtenir_un_devis extend" href="#"
+            >obtenir un devis
+            <ion-icon
+              name="arrow-forward-outline"
+              class="arrow1_btn"
+              style="font-size: large"
+            ></ion-icon>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="a_propos_de_notre_entreprise">
+      <div class="container_a_propos">
+        <div class="text_left_container">
+          <div class="text_left_container_top">
+            <h3>À PROPOS DE NOTRE ENTREPRISE</h3>
+            <h2 class="nous_fournissons slide_up">
+              Nous fournissons des solutions pour réaliser des projets sûrs et
+              efficaces
+            </h2>
+            <p class="cet_espace">
+              Cet espace permet de présenter l'entreprise ou la marque aux
+              visiteurs. Partagez brièvement son histoire, ses valeurs et ce qui
+              la rend unique. Expliquez également ce que ce site a à proposer
+            </p>
+            <a class="obtenir_un_devis lire_plus" href="#"
+              >lire plus
+              <ion-icon
+                name="arrow-forward-outline"
+                class="arrow1_btn"
+                style="font-size: large"
+              ></ion-icon>
+            </a>
+          </div>
+          <div class="stats_left_bottom">
+            <div class="stats">
+              <h1 class="chiffres_stats slide_up">48</h1>
+              <p>Chantiers en cours</p>
+            </div>
+            <div class="stats">
+              <h1 class="chiffres_stats slide_up">282</h1>
+              <p>Projets complétés</p>
+            </div>
+            <div class="stats">
+              <h1 class="chiffres_stats slide_up">48</h1>
+              <p>Partenaires commerciaux</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="image_right_container">
+          <img src="./assets/apropos.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section class="projets_a_laffiche">
+      <div class="text_projet_top_container">
+        <div class="text_left_projet">
+          <h3>PROJETS À L'AFFICHE</h3>
+          <h2 class="nous_realisons">Nous réalisons des projets durables</h2>
+        </div>
+        <a class="obtenir_un_devis lire_plus" href="#"
+          >Tous les projets
+          <ion-icon
+            name="arrow-forward-outline"
+            class="arrow1_btn"
+            style="font-size: large"
+          ></ion-icon>
+        </a>
+      </div>
+    </section>
+
+    <section class="slider">
+      <div
+        class="gallery js-flickity"
+        data-flickity-options='{ "wrapAround": true }'
+      >
+        <div class="gallery-cell" id="one"></div>
+        <div class="gallery-cell" id="two"></div>
+        <div class="gallery-cell" id="three"></div>
+        <div class="gallery-cell" id="four"></div>
+        <div class="gallery-cell" id="five"></div>
+      </div>
+    </section>
+
+    <section class="nos_services">
+      <div class="container_nos_services">
+        <div class="text_projet_top_container nos_services">
+          <div class="text_left_projet nos_services">
+            <h3>NOS SERVICES</h3>
+            <h2 class="nous_realisons notre_gamme">
+              Notre gamme de services répond à tous types de besoins
+            </h2>
+          </div>
+          <a class="obtenir_un_devis lire_plus" href="#"
+            >Tous les services
+            <ion-icon
+              name="arrow-forward-outline"
+              class="arrow1_btn"
+              style="font-size: large"
+            ></ion-icon>
+          </a>
+        </div>
+        <div class="nos_services_content no_border">
+          <img
+            class="image_nos_services"
+            src="./assets/building_14058206.svg"
+            alt=""
+          />
+          <p class="nos_services_title">COMMERCIAL</p>
+          <p>
+            Décrivez le service et comment les clients peuvent en bénéficier.
+            Vous pouvez ajouter ici des informations importantes, telles que le
+            prix, la durée et les modalités de réservation.
+          </p>
+        </div>
+
+        <div class="nos_services_content no_border">
+          <img
+            class="image_nos_services"
+            src="./assets/home-building-outline-symbol_51679.svg"
+            alt=""
+          />
+          <p class="nos_services_title">RÉSIDENTIEL</p>
+          <p>
+            Décrivez le service et comment les clients peuvent en bénéficier.
+            Vous pouvez ajouter ici des informations importantes, telles que le
+            prix, la durée et les modalités de réservation.
+          </p>
+        </div>
+
+        <div class="nos_services_content">
+          <img src="./assets/work-time_9023076.svg" alt="" />
+          <p class="nos_services_title">PRÉ-CONSTRUCTION</p>
+          <p>
+            Décrivez le service et comment les clients peuvent en bénéficier.
+            Vous pouvez ajouter ici des informations importantes, telles que le
+            prix, la durée et les modalités de réservation.
+          </p>
+        </div>
+
+        <div class="nos_services_content">
+          <img
+            class="image_nos_services"
+            src="./assets/safety_2667423.svg"
+            alt=""
+          />
+          <p class="nos_services_title">GESTION DE CHANTIER</p>
+          <p>
+            Décrivez le service et comment les clients peuvent en bénéficier.
+            Vous pouvez ajouter ici des informations importantes, telles que le
+            prix, la durée et les modalités de réservation.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="single_projet">
+      <div class="container_single_projet_left">
+        <div class="projet_top">
+          <h3>PROJETS</h3>
+          <h2 id="title_single_projet">Projet à l'affiche</h2>
+        </div>
+
+        <div class="projet_top">
+          <h4>Année de réalisation :</h4>
+          <p>2035</p>
+        </div>
+
+        <div class="projet_top">
+          <h4>Client :</h4>
+          <p>Spark promoteur immobilier</p>
+        </div>
+
+        <div class="projet_top">
+          <h4>Secteur :</h4>
+          <p>Commercial</p>
+        </div>
+      </div>
+
+      <div class="video_single_projet_right">
+        <video autoplay loop muted>
+          <source src="./assets/file (1).mp4" />
+        </video>
+      </div>
+    </section>
+
+    <section class="nos_clients">
+      <div class="text_nos_clients_top_container">
+        <h3 class="title_nos_clients">Nos clients</h3>
+        <h2>Pour nous, chaque client est un partenaire à long terme.</h2>
+      </div>
+      <div class="scroll">
+        <div class="image_logo_client one1">
+          <img
+            src="https://asset.brandfetch.io/ididNbiiOd/idztTfMB5j.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one2">
+          <img
+            src="https://asset.brandfetch.io/idssig0_jY/idzOob1ffx.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one3">
+          <img
+            src="https://asset.brandfetch.io/id5gOybDIq/idb7419A7-.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one4">
+          <img
+            src="https://asset.brandfetch.io/idAgPm7IvG/idRpzjttRm.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one5">
+          <img
+            src="https://asset.brandfetch.io/idsU6MactO/ido5G3mXfr.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one6">
+          <img
+            src="https://asset.brandfetch.io/idItGcrKZZ/idX2sgAl0Z.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one7">
+          <img
+            src="https://asset.brandfetch.io/idIu-Ji9Le/idZvBWVX1i.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client one8">
+          <img
+            src="https://asset.brandfetch.io/id9mEmLNcV/idY_nD7Y22.svg"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <div class="scroll">
+        <div class="image_logo_client bottom one1">
+          <img
+            src="https://asset.brandfetch.io/ididNbiiOd/idztTfMB5j.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one2">
+          <img
+            src="https://asset.brandfetch.io/idssig0_jY/idzOob1ffx.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one3">
+          <img
+            src="https://asset.brandfetch.io/id5gOybDIq/idb7419A7-.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one4">
+          <img
+            src="https://asset.brandfetch.io/idAgPm7IvG/idRpzjttRm.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one5">
+          <img
+            src="https://asset.brandfetch.io/idsU6MactO/ido5G3mXfr.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one6">
+          <img
+            src="https://asset.brandfetch.io/idItGcrKZZ/idX2sgAl0Z.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one7">
+          <img
+            src="https://asset.brandfetch.io/idIu-Ji9Le/idZvBWVX1i.svg"
+            alt=""
+          />
+        </div>
+        <div class="image_logo_client bottom one8">
+          <img
+            src="https://asset.brandfetch.io/id9mEmLNcV/idY_nD7Y22.svg"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="footer_container">
+        <div class="first_container item">
+          <div class="logo_container footer">
+            <span class="span_logo footer">OBE </span>
+            <h2 class="construction footer">Construction</h2>
+          </div>
+          <ul class="naviagtion_list_container footer">
+            <a class="lien_nav" href="#">services</a>
+            <a class="lien_nav" href="#">projets</a>
+            <a class="lien_nav" href="#">à propos</a>
+            <a class="lien_nav" href="#">contact</a>
+          </ul>
+        </div>
+
+        <div class="second_container item">
+          <h3 class="title_col_foot">SIÈGE SOCIAL</h3>
+          <p>47 rue des Couronnes 75020 Paris, France</p>
+          <p>01 23 45 67 89 info@monsite.fr</p>
+        </div>
+
+        <div class="third_container item">
+          <h3 class="title_col_foot">RÉSEAUX SOCIAUX</h3>
+
+          <ul class="naviagtion_list_container footer_third">
+            <a class="lien_nav" href="#">Facebook</a>
+            <a class="lien_nav" href="#">Instagram</a>
+            <a class="lien_nav" href="#">LinkedIn</a>
+          </ul>
+        </div>
+
+        <div class="four_container item">
+          <h3 class="title_col_foot">CONTACT</h3>
+          <p>Vous souhaitez obtenir un devis ?</p>
+          <a class="obtenir_un_devis lire_plus" href="#"
+            >Tous les projets
+            <ion-icon
+              name="arrow-forward-outline"
+              class="arrow1_btn"
+              style="font-size: large"
+            ></ion-icon>
+          </a>
+          <p>
+            <a class="devenir_sous_traitant" href="#">Devenir sous-traitant</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="mentions_legales_and_others">
+        <a href="#" class="mention">Politique de Confidentialité</a>
+        <a href="#" class="mention">Politique de cookies</a>
+        <a href="#" class="mention">Mentions légales</a>
+      </div>
+
+      <div class="copyright">
+        <a href="#" class="mention">Retour en haut de page</a>
+        <a href="#"
+          >&copy;2035 par OBE Construction. Créé avec
+          <span class="wix">Wix Studio™</span></a
+        >
+      </div>
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
