@@ -964,6 +964,29 @@ nav{
     transform: translateY(0);
 }
 
+.slide_left{
+    opacity: 0;
+    transition: .6s linear !important;
+    transform: translateX(50px);
+}
+
+.visible_slide_left{
+    opacity: 1;
+    transform: translateX(0);
+}
+
+
+.slide_right{
+    opacity: 0;
+    transition: .6s linear !important;
+    transform: translateX(-50px);
+}
+
+.visible_slide_right{
+    opacity: 1;
+    transform: translateX(0);
+}
+
 
 
 
