@@ -102,7 +102,7 @@ nav{
 
 .obtenir_un_devis{
     padding: var(--buttonpadding);
-    background-color: #00A8E1;
+    background-color: #EC4A0A;
     border-radius: 50px;
     display: flex;
     align-items: center;
@@ -163,8 +163,8 @@ nav{
 
 .obtenir_un_devis.extend:hover{
     /* background-color: transparent !important; */
-    background-color: #00A8E1 !important;
-    border: 1px solid #00A8E1;
+    background-color: #373738 !important;
+    border: 1px solid #373738;
     color: var(--colorwhite) !important;
 }
 
@@ -220,15 +220,15 @@ nav{
 .obtenir_un_devis.lire_plus{
     text-transform: uppercase;
     padding: clamp(10px, 2vw, 22px) !important;
-    background-color: #00A8E1 !important;
+    background-color: #373738 !important;
     color: white;
-    border: 1px solid #00A8E1;
+    border: 1px solid #373738;
     font-size: clamp(10px, 11px, 16px);
 }
 
 .obtenir_un_devis.lire_plus:hover{
     background-color: var(--colorwhite) !important;
-    border: 1px solid #00A8E1;
+    border: 1px solid #373738;
     color: var(--titile_color);
 }
 
@@ -760,7 +760,12 @@ nav{
     box-sizing: border-box;
   }
   
-  body { font-family: sans-serif; }
+  body { 
+    font-family: sans-serif; 
+}
+::-webkit-scrollbar {
+    display: none;
+  }
   
   .gallery {
     background: #EEE;
